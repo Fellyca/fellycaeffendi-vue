@@ -25,35 +25,35 @@
       </button>
     </div>
     <h1 style="padding-top:50px; text-align:center">Kegiatan Selama Berkuliah</h1>
-    <div class="card" style="width: 30rem; margin:20px; float:left">
+    <div class="card" style="width: 30%; margin:20px; float:left">
       <img src="knmipa.jpg" class="card-img-top" alt="...">
       <div class="card-body">
       <h5 class="card-title">Peserta KNMIPA Nasional</h5>
       <div class="card-text">Menjadi salah satu peserta KNMIPA tingkat nasional bidang kimia tahun 2021</div>
       </div>
     </div>
- <div class="card" style="width: 30rem; margin:20px; float:left">
+ <div class="card" style="width: 30%; margin:20px; float:left">
       <img src="python fundamental.jpg" class="card-img-top" alt="...">
       <div class="card-body">
       <h5 class="card-title">Peserta Bootcamp DQLab</h5>
       <p class="card-text">Mengikuti bootcamp yang mempelajari tentang python fundamental</p>
     </div>
 </div>
-<div class="card" style="width: 30rem; margin:20px; float : left">
+<div class="card" style="width: 30%; margin:20px; float : left">
       <img src="R fundamental.jpg" class="card-img-top" alt="...">
       <div class="card-body">
       <h5 class="card-title">Peserta Bootcamp DQLab 2</h5>
       <p class="card-text">Mengikuti bootcamp yang mempelajari tentang R fundamental for data science</p>
     </div>
 </div>
-<div class="card" style="width: 30rem; margin:20px; float : left">
+<div class="card" style="width: 30%; margin:20px; float : left">
       <img src="digital marketing.jpg" class="card-img-top" alt="...">
       <div class="card-body">
       <h5 class="card-title">Peserta Mini Course RevoU</h5>
       <p class="card-text">Mengikuti mini course mengenai digital marketing selama 1 minggu</p>
     </div>
 </div>
-<div class="card" style="width: 30rem; margin:20px; float : left">
+<div class="card" style="width: 30%; margin:20px; float : left">
       <img src="mandarin.png" class="card-img-top" alt="...">
       <div class="card-body">
       <h5 class="card-title">Peserta Kelas Mandarin</h5>
