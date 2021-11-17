@@ -24,42 +24,43 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-    <h1 style="padding-top:50px; text-align:center">Kegiatan Selama Berkuliah</h1>
-    <div class="card" style="width: 30%; margin:20px; float:left">
-      <img src="knmipa.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-      <h5 class="card-title">Peserta KNMIPA Nasional</h5>
-      <div class="card-text">Menjadi salah satu peserta KNMIPA tingkat nasional bidang kimia tahun 2021</div>
-      </div>
-    </div>
- <div class="card" style="width: 30%; margin:20px; float:left">
-      <img src="python fundamental.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-      <h5 class="card-title">Peserta Bootcamp DQLab</h5>
-      <p class="card-text">Mengikuti bootcamp yang mempelajari tentang python fundamental</p>
-    </div>
-</div>
-<div class="card" style="width: 30%; margin:20px; float : left">
-      <img src="R fundamental.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-      <h5 class="card-title">Peserta Bootcamp DQLab 2</h5>
-      <p class="card-text">Mengikuti bootcamp yang mempelajari tentang R fundamental for data science</p>
-    </div>
-</div>
-<div class="card" style="width: 30%; margin:20px; float : left">
-      <img src="digital marketing.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-      <h5 class="card-title">Peserta Mini Course RevoU</h5>
-      <p class="card-text">Mengikuti mini course mengenai digital marketing selama 1 minggu</p>
-    </div>
-</div>
-<div class="card" style="width: 30%; margin:20px; float : left">
-      <img src="mandarin.png" class="card-img-top" alt="...">
-      <div class="card-body">
-      <h5 class="card-title">Peserta Kelas Mandarin</h5>
-      <p class="card-text">Mengikuti kelas belajar bahasa mandarin dasar secara online selama 3 bulan</p>
-    </div>
-</div>
+    <h1 style="padding-top:50px; text-align:center;">Kegiatan Selama Berkuliah</h1>
+    <ul class="list-group list-group-flush" style="float:left; width : 45%">
+  <li class="list-group-item">
+    <img src="knmipa.jpg" width="50%" alt="..." style="float : right">
+    <h4>KNMIPA Nasional</h4>
+    <br>
+    Pernah menjadi salah satu peserta KNMIPA tingkat nasional bidang kimia tahun 2021
+      
+  </li>
+  <li class="list-group-item">
+    <img src="python fundamental.jpg" width="50%" alt="..." style="float : right">
+    <h4>Bootcamp DQLab</h4>
+    <br>
+    Mengikuti bootcamp yang mempelajari tentang python fundamental for data science
+  </li>
+  <li class="list-group-item">
+    <img src="R fundamental.jpg" width="50%" alt="..." style="float : right">
+    <h4>Bootcamp DQLab 2</h4>
+    <br>
+    Mengikuti bootcamp yang mempelajari tentang R fundamental for data science
+  
+  </li>
+  </ul>
+  <ul class="list-group list-group-flush" style="float:right; width : 45%">
+  <li class="list-group-item">
+    <img src="digital marketing.jpg" width="50%" alt="..." style="float : right">
+    <h4>Mini Course RevoU</h4>
+    <br>
+    Mengikuti mini course mengenai digital marketing selama 1 minggu
+  </li>
+  <li class="list-group-item">
+    <img src="mandarin.png" width="50%" alt="..." style="float : right">
+    <h4>Kelas Mandarin</h4>
+    <br>
+    Mengikuti kelas belajar bahasa mandarin dasar secara online selama 3 bulan
+  </li>
+</ul>
   </div>
 </template>
 
