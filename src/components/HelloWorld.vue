@@ -26,19 +26,22 @@
     </div>
     <h1 style="padding-top:50px; text-align:center;">Kegiatan Selama Berkuliah</h1>
     <ul class="list-group list-group-flush" style="float:left; width : 45%">
-  <li class="list-group-item">
+    <br>
+    <li class="list-group-item">
     <img src="knmipa.jpg" width="50%" alt="..." style="float : right">
     <h4>KNMIPA Nasional</h4>
     <br>
     Pernah menjadi salah satu peserta KNMIPA tingkat nasional bidang kimia tahun 2021
-      
+    
   </li>
+  <br>
   <li class="list-group-item">
     <img src="python fundamental.jpg" width="50%" alt="..." style="float : right">
     <h4>Bootcamp DQLab</h4>
     <br>
     Mengikuti bootcamp yang mempelajari tentang python fundamental for data science
   </li>
+  <br>
   <li class="list-group-item">
     <img src="R fundamental.jpg" width="50%" alt="..." style="float : right">
     <h4>Bootcamp DQLab 2</h4>
@@ -48,12 +51,14 @@
   </li>
   </ul>
   <ul class="list-group list-group-flush" style="float:right; width : 45%">
+  <br>
   <li class="list-group-item">
     <img src="digital marketing.jpg" width="50%" alt="..." style="float : right">
     <h4>Mini Course RevoU</h4>
     <br>
     Mengikuti mini course mengenai digital marketing selama 1 minggu
   </li>
+  <br>
   <li class="list-group-item">
     <img src="mandarin.png" width="50%" alt="..." style="float : right">
     <h4>Kelas Mandarin</h4>
