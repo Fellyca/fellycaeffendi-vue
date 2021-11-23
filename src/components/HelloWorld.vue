@@ -25,7 +25,23 @@
       </button>
     </div>
     <h1 style="padding-top:50px; text-align:center;">Kegiatan Selama Berkuliah</h1>
-    <ul class="list-group list-group-flush" style="float:left; width : 45%">
+    <ul class="list-group list-group-flush" style="float:right; width : 45%">
+  <br>
+  <li class="list-group-item">
+    <img src="digital marketing.jpg" width="50%" alt="..." style="float : right">
+    <h4>Mini Course RevoU</h4>
+    <br>
+    Mengikuti mini course mengenai digital marketing selama 1 minggu
+  </li>
+  <br>
+  <li class="list-group-item">
+    <img src="mandarin.png" width="50%" alt="..." style="float : right">
+    <h4>Kelas Mandarin</h4>
+    <br>
+    Mengikuti kelas belajar bahasa mandarin dasar secara online selama 3 bulan
+  </li>
+</ul>
+    <ul class="list-group list-group-flush" style="float:left; width : 45%; margin-right:10%">
     <br>
     <li class="list-group-item">
     <img src="knmipa.jpg" width="50%" alt="..." style="float : right">
@@ -47,25 +63,11 @@
     <h4>Bootcamp DQLab 2</h4>
     <br>
     Mengikuti bootcamp yang mempelajari tentang R fundamental for data science
-  
+    
   </li>
   </ul>
-  <ul class="list-group list-group-flush" style="float:right; width : 45%">
-  <br>
-  <li class="list-group-item">
-    <img src="digital marketing.jpg" width="50%" alt="..." style="float : right">
-    <h4>Mini Course RevoU</h4>
-    <br>
-    Mengikuti mini course mengenai digital marketing selama 1 minggu
-  </li>
-  <br>
-  <li class="list-group-item">
-    <img src="mandarin.png" width="50%" alt="..." style="float : right">
-    <h4>Kelas Mandarin</h4>
-    <br>
-    Mengikuti kelas belajar bahasa mandarin dasar secara online selama 3 bulan
-  </li>
-</ul>
+hr
+
   </div>
 </template>
 
