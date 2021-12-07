@@ -39,6 +39,8 @@
             
             <button type="submit" class="btn btn-success me-1">Register</button>
             <button type="reset" class="btn btn-warning">Reset</button>
+            <router-link :to="{name: 'login'}" class="ms-1 me-1">Login</router-link>
+            <router-link :to="{name: 'home'}">Home</router-link>
         </form>
     </div>
 </template>

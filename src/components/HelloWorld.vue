@@ -66,7 +66,6 @@
     
   </li>
   </ul>
-hr
 
   </div>
 </template>
