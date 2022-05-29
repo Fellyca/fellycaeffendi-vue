@@ -7,7 +7,7 @@
                 
             </div>
             <div class="row row-cols-4 row-cols-md-4 row-cols-sm-2">
-                <div v-for="user in datausers" :key="user.id" class="card">
+                <div v-for="user in datausers" :key="user" class="card">
                 <img src="../../../public/F.webp" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">{{user.name}}</h5>
