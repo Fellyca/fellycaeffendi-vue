@@ -15,11 +15,11 @@
                 <form @submit.prevent="createNewUser">
                     <div class="mb-3">
                         <label for="name" class="form-label">Name</label>
-                        <input v-model="user.name" type="text" class="form-control" id="name">
+                        <input type="text" class="form-control" id="name">
                     </div>
                     <div class="mb-3">
                         <label for="username" class="form-label">Username</label>
-                        <input v-model="user.username" type="text" class="form-control" id="username">
+                        <input type="text" class="form-control" id="username">
                     </div>
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
