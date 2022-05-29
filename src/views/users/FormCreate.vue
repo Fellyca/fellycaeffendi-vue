@@ -26,40 +26,6 @@ import LayoutMain from "@/views/LayoutMain"
 export default {
     components: {
         LayoutMain
-    },
-    data() {
-        return {
-            user: { name: null, username: null},
-            datausers: null,
-            errormessage: null,
-            successmessage: null
-        }
-    },
-    methods: {
-        createNewUser() {
-             fetch("https://jsonplaceholder.typicode.com/users/",
-                {
-                    headers: {
-                            'Content-type': 'application/json; charset=UTF-8',
-                    },
-                    method: 'POST',
-                    body: JSON.stringify(this.user)
-                }
-             )
-                .then(response => response.json())  //then 1, set response sebagai json
-                .then(json => {
-                    if(json?.id !== undefined){
-                        this.datausers = json;
-                        this.successmessage = "User berhasil disimpan!";
-                    }else{
-                        this.errormessage = "Data user gagal disimpan!";
-                    }                    
-                })   //then 2, ambil respon json dan set sebagai data
-                .catch(error => {
-                    console.log(error);
-                    this.errormessage = "Gagal, silakan coba lag!";
-                }) 
-            }
-        }
+    }
 }
 </script>
