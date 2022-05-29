@@ -5,14 +5,7 @@
                 <h1 class="h2">Create New User</h1>
             </div>
             <div>
-                <div v-if="datausers == null && errormessage !== null" class="alert alert-danger" role="alert">
-                    {{ errormessage }}
-                </div>
-
-                <div v-if="successmessage !== null" class="alert alert-success" role="alert">
-                    {{ successmessage }}
-                </div>
-                <form @submit.prevent="createNewUser">
+                <form>
                     <div class="mb-3">
                         <label for="name" class="form-label">Name</label>
                         <input type="text" class="form-control" id="name">
